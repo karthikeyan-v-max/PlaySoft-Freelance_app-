@@ -1,0 +1,32 @@
+.reviews-1-gig{
+    margin-top: 50px;
+}
+
+.add-1-review{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;   
+}
+.addForm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.addForm input{
+    padding: 24px;
+}
+.addForm select{
+    width: 150px;
+    height: 20px;
+    align-self: flex-end;
+}
+.addForm button{
+    align-self: flex-end;
+    width: 100px;
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: rgb(32, 96, 32);
+    cursor: pointer;
+}

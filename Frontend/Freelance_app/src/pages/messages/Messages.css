@@ -1,0 +1,47 @@
+.gigs-1-messages{
+    display: flex;
+    justify-content: center;
+}
+.container-1-gigs{
+    width: 1400px;
+    padding: 50px 0px;
+}
+.title-1-gigs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gigs-1-messages button{
+    background-color: lightgreen;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.gigs-1-messages table{
+    width: 100%;
+}
+.gigs-1-messages tr{
+    height: 100px;
+
+}
+
+.gigs-1-messages th{
+    text-align: left;
+}
+.gigs-1-messages td{
+    padding: 10px
+}
+.gigs-1-messages td:first-child{
+    font-weight: 500;
+}
+.gigs-1-messages td:nth-child(2){
+    color: gray;
+}
+.gigs-1-messages td:nth-child(3){
+    color: gray;
+}
+.active-1-messages{
+    background-color: lightgray;
+}

@@ -1,0 +1,10 @@
+.slide{
+    max-width: 800px;
+    display: inline
+}
+.containers{
+    display: inline-flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

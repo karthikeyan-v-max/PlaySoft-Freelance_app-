@@ -1,0 +1,93 @@
+.featured{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    background-color: #053a05;
+    color:white;
+}
+.containerf{
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between;  */
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.left h1{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.left h1 span{
+    font-family: cursive;
+    font-style: oblique;
+    font-weight: 100;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.searchInput{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.searchInput img{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+.searchInput input{
+    border: none;
+    outline: none;
+}
+.searchInput input::placeholder{
+    color: gray;
+}
+.search button{
+    width: 120px;
+    height: 50px;
+    border: none;
+    background-color: #10c210;
+    color: white;
+    align-self: flex-end;
+    cursor: pointer;
+}
+.popular{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.popular button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    width: max-content;
+}
+.popular span{
+    width: max-content;
+}
+.popular button:hover{
+    background-color: gray;
+    color: black;
+    transition: 0.8s all ease;
+}
+.right{
+    height: 100%;
+}
+.right img{
+    height: 100%;
+    object-fit: contain;
+}

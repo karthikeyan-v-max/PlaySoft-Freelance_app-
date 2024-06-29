@@ -1,0 +1,13 @@
+.slidep{
+    max-width: 1400px;
+    display: inline;
+    
+}
+.containersp{
+    width: 100vw;
+    gap: 40px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

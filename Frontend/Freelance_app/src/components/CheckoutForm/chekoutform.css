@@ -1,0 +1,20 @@
+#submit{
+    background-color: rgb(244, 248, 244);
+    color: rgb(12, 12, 12);
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    margin-left: 40%;
+    margin-top: 50px;
+    border: 1px solid gray;
+}
+
+#submit:hover{
+    background-color: rgb(27, 212, 27);
+    color: rgb(79, 77, 77);
+    transition: 0.5s ease;
+}
+
+#button-text{
+    font-weight: bold;
+}

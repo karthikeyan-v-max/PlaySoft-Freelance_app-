@@ -1,0 +1,105 @@
+.add-1-add{
+    display: flex;
+    justify-content: center;  
+}
+.container-1-add{
+    width: 1400px;
+    padding: 50px 0px;
+}
+.container-1-add h1{
+    width: max-content;
+    margin-bottom: 30px;
+    color: gray;
+    font-weight: 300;
+}
+.sections-1-add{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.sections-1-add label{
+    color: gray;
+    font-size: 18px;
+}
+.info-1-add{
+    flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: space-between;
+}
+.details-1-add{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
+.info-1-add input{
+    padding: 20px;
+}
+.info-1-add select{
+    padding: 20px;   
+}
+.info-1-add textarea{
+    padding: 20px; 
+}
+.details-1-add input{
+    padding: 20px;
+}
+.details-1-add select{
+    padding: 20px;
+}
+.details-1-add textarea{
+    padding: 20px;
+}
+.details-1-add button{
+    border: none;
+    padding: 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #1dbf73;
+    cursor: pointer;
+}
+.info-1-add button{
+    border: none;
+    padding: 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #1dbf73;
+    cursor: pointer;
+}
+.images-1-add{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.imagesInputs-1-add{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form-1-add{
+    display: flex;
+    justify-content: space-between;
+}
+.form-1-add input{
+    width: 80%;
+}
+.item-1-add button{
+    height: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    background: transparent;
+    color: red;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.addedFeatures-1-add{
+    display: flex;
+    gap: 10px;
+}

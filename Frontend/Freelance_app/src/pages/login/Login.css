@@ -1,0 +1,96 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.login-1-container{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 20px 10px 10px greenyellow inset;
+    border: 3px solid gray;
+    margin: 20px;
+    height: 350px;
+    width: 600px;
+}
+.login-1-container h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.login-1-username{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.login-1-username label{
+    font-size: x-large;
+    padding-right: 10px;
+}
+.login-1-username input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    outline: none;
+    margin-left: 20px;
+    border-radius: 5px;
+    height: 42px;
+    width: 420px;
+}
+.login-1-password{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.login-1-password label{
+    font-size: x-large;
+    padding-right: 10px;
+}
+.login-1-password input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    outline: none;
+    margin-left: 24px;
+    border-radius: 5px;
+    height: 42px;
+    width: 420px;
+}
+.login-1-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.login-1-button button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 80%;
+    background: white;
+    color: black;
+    font-size: 25px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.login-1-button button:hover{
+    background: greenyellow;
+    
+}
+.loading h3{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}

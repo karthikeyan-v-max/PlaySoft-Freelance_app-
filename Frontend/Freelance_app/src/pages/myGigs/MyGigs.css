@@ -1,0 +1,44 @@
+.gigs-1-gigs{
+    display: flex;
+    justify-content: center;
+}
+.container-1-gigs{
+    width: 1400px;
+    padding: 50px 0px;
+}
+.title-1-gigs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title-1-gigs button{
+    background-color: lightgreen;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.gigs-1-gigs table{
+    width: 100%;
+}
+.gigs-1-gigs tr{
+    height: 50px;
+
+}
+
+.gigs-1-gigs th{
+    text-align: left;
+}
+.userimg-1-gigs{
+    width: 50px;
+    height: 25px;
+    object-fit: cover;
+}
+.delete-1-gigs{
+    width: 20px;
+    cursor: pointer;
+}
+.gigs-1-gigs tr:nth-child(even){
+    background-color: gainsboro
+}

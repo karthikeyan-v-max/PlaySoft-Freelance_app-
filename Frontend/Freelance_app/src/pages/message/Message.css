@@ -1,0 +1,79 @@
+.message{
+    display: flex;
+    justify-content: center;
+}
+.container-1-message{
+    width: 1200px;
+    margin: 50px;
+}
+.breadcrumbs-1-message{
+    font-weight: 300;
+    font-size: 13px;
+    color: #555;
+}
+.messages-1-message{
+    margin: 30px 0px;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      height: 500px;
+      overflow: scroll;
+}
+.item-1-message{
+    display: flex;
+    gap: 20px;
+    max-width: 600px;
+    font-size: 18px;
+}
+.owner-1-message{
+    flex-direction: row-reverse;
+    align-self: flex-end;
+}
+.item-1-message img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.item-1-message p{
+    max-width: 500px;
+    padding: 20px;
+    background-color: rgb(244, 241, 241);
+    border-radius: 0px 20px 20px 20px;
+    color: gray;
+    font-weight: 300;
+}
+.owner-1-message p{
+    max-width: 500px;
+    border-radius: 20px 0px 20px 20px;
+    background-color: royalblue;
+    color: white
+}
+.container-1-message hr{
+    height: 0;
+    border: 0.5px solid rgb(232, 230, 230);
+    margin-bottom: 20px;
+}
+.write-1-message{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.write-1-message textarea{
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.write-1-message button{
+    background-color: #1dbf73;
+    padding: 20px;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+}
